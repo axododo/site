@@ -88,19 +88,19 @@ img{
 
 #slide-1 .slide__bg {
   background-image: repeating-linear-gradient(
-    rgb(102, 204, 102),
-    rgb(102, 204, 102) 30px,
-    rgb(92, 184, 92) 30px,
-    rgb(92, 184, 92) 60px
-  );
-}
-#slide-2 .slide__bg {
-  background-image: repeating-linear-gradient(
     45deg,
     rgb(133, 173, 230),
     rgb(133, 173, 230) 30px,
     rgb(113, 153, 210) 30px,
     rgb(113, 153, 210) 60px
+  );
+}
+#slide-2 .slide__bg {
+  background-image: repeating-linear-gradient(
+    rgb(153, 216, 101),
+    rgb(153, 216, 101) 30px,
+    rgb(133, 196, 81) 30px,
+    rgb(133, 196, 81) 60px
   );
 }
 #slide-3 .slide__bg {
