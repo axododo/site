@@ -1,6 +1,5 @@
 
-/* demo styles
---------------------------------------------- */
+
 
 body {
   font: 120% / 1.5 Arial;
@@ -22,8 +21,7 @@ body > svg {
 }
 
 
-/* demo nav bar
---------------------------------------------- */
+
 
 .nav {
   position: fixed;
@@ -49,9 +47,6 @@ body > svg {
   text-decoration: none;
 }
 
-
-/* slide layout
---------------------------------------------- */
 
 .slide {
   position: relative;
@@ -79,7 +74,6 @@ body > svg {
   z-index: -1;
 }
 
-/* slide backgrounds */
 
 #slide-1 .slide__bg {
   background-image: repeating-linear-gradient(
@@ -134,15 +128,6 @@ body > svg {
 }
 
 
-/* misc
---------------------------------------------- */
-
-
-
-
-/* Large screen layout
---------------------------------------------- */
-
 @media screen and (min-width: 45em) {
 
   .slide__content {
@@ -163,7 +148,6 @@ body > svg {
     display: block;
   }
 
-  /* parallax */
   @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
 
     html, body {
@@ -171,7 +155,7 @@ body > svg {
       height: 100%;
     }
     body {
-      transform: translateZ(0px); /* Fix paint issues in Edge && Safari H/W acceleration */
+      transform: translateZ(0px);
     }
     .slides {
       position: absolute;
@@ -212,7 +196,7 @@ body > svg {
       padding-bottom: 14%;
     }
     .slide:nth-child(2n) {
-      z-index: 1; /* ensure slides overlay correctly */
+      z-index: 1; 
     }
   }
 }
