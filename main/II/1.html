@@ -2,9 +2,59 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css.css">
     <title></title>
   </head>
   <body>
-    hello world
+    <!-- svg is defined here because of a Safari bug with <use> -->
+<svg>
+  <defs>
+    <g id="p">
+      <path opacity=".2" d="M0 2h252s-3.3 40.7-2.7 128.3C249 216 252 272 252 272s-88-2-124.3-2C91.3 270 0 272 0 272V0z"/><path fill="#f4f3f1" d="M0 0h248v270H0z"/><path fill="#4f5150" d="M8 10h233v203H8z"/>
+    </g>
+    <g id="polaroid">
+      <use xlink:href="#p" transform="rotate(15)" x="175" y="50"/>
+      <use xlink:href="#p" transform="rotate(-5)" x="5" y="25"/>
+    </g>
+  </defs>
+</svg>
+
+
+
+<nav>
+  <ul class="nav">
+    <li><a href="#slide-1">1- L'évolution de la biodiversité à l'échelle du temps humain</a></li>
+    <li><a href="#slide-2">2- l'évolution de la diversité à l'échelle géologique</a></li>
+    <li><a href="../main.html">retours</a></li>
+  </ul>
+</nav>
+
+<div class="slides">
+  <div class="slide" id="slide-1">
+    <div class="slide__bg"></div>
+    <div class="slide__content">
+      <div class="slide__text">
+        <h1 id="slide-1-title">L'évolution de la biodiversité à l'échelle du temps humain</h1>
+        <p> La biodiversité du passé est étudié grâce aux fossiles découverts dans les roches sédimentoires ou dans l'arbre. Elle représente une grande diversité qui comprend des espèces d'aujourd'hui disparus, comme les libellules géantes... La biodiversité du passé constitue des étapes de l'histoire du vivant tout comme la biodiversité actuelle. Cependant, suite aux nombreuses victimes, les organismes actuels ne représentent qu'une infini partie des organismes qui ont subis depuis le début de la vie. L'évolution se poursuis de nos jours et des nouvelles espèces apparaissent régulièrement, parfois en quelques années seulement.
+Exemple de Libellules géantes</p>
+      </div>
+      <div class="slide__image">
+        <img src="li.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" id="slide-2">
+    <div class="slide__bg"></div>
+    <div class="slide__content">
+      <div class="slide__text">
+        <h1 id="slide-2-title"> l'évolution de la diversité à l'échelle géologique</h1>
+        <p>la biodiversité passé s'étudie particulièrement aux fossiles, on constate ainsi de grands changements de biodiversité notament au moment de crise biologique comme la crise Crétacé-Paléogène. La crise de biodiversité actuelle repose sur la diminution rapide du nombre d'espèces dans différents écosystèmes.</p>
+      </div>
+
+    </div>
+  </div>
+
+
   </body>
 </html>

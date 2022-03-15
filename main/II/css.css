@@ -29,7 +29,7 @@ body > svg {
   position: fixed;
   z-index: 100;
   right: 1em;
-  top: 50%;
+  top: 10%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   display: none;
